@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: trading-systems-dashboard
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    autoDeploy: true
+    healthCheckPath: /healthz

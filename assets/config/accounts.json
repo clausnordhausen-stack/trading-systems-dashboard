@@ -1,0 +1,33 @@
+{
+  "accounts": [
+    {
+      "accountNumber": "504055635",
+      "label": "Main Account",
+      "enabled": true,
+      "symbols": [
+        {
+          "symbol": "XAUUSD",
+          "displayName": "Gold",
+          "magic": "777",
+          "enabled": true,
+          "sortOrder": 1,
+          "baseLot": 0.05,
+          "maxLot": 0.8,
+          "color": "#D4AF37",
+          "refreshOverrideSeconds": null
+        },
+        {
+          "symbol": "BTCUSD",
+          "displayName": "Bitcoin",
+          "magic": "62001",
+          "enabled": true,
+          "sortOrder": 2,
+          "baseLot": 1.0,
+          "maxLot": 2.0,
+          "color": "#F7931A",
+          "refreshOverrideSeconds": null
+        }
+      ]
+    }
+  ]
+}
